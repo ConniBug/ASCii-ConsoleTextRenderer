@@ -86,16 +86,11 @@ class TestProject {
     public static String number_1(String item, int row) {
         switch(row)
         {
-            case(0):
-                return("  X  ");
-            case(1):
-                return("  X  ");
-            case(2):
-                return("  X  ");
-            case(3):
-                return("  X  ");
-            case(4):
-                return("  X  ");
+            case(0): return("  X  ");
+            case(1): return("  X  ");
+            case(2): return("  X  ");
+            case(3): return("  X  ");
+            case(4): return("  X  ");
         }
         return "NULL";
     }
@@ -214,21 +209,11 @@ class TestProject {
     public static String letter_h(String item, int row) {
         switch(row)
         {
-            case(0) -> {
-                return("  X       ");
-            }
-            case(1) -> {
-                return("  X       ");
-            }
-            case(2) -> {
-                return("  XXXXX   ");
-            }
-            case(3) -> {
-                return("  X    X  ");
-            }
-            case(4) -> {
-                return("  X    X  ");
-            }
+            case(0): return("  X       ");
+            case(1): return("  X       ");
+            case(2): return("  XXXXX   ");
+            case(3): return("  X    X  ");
+            case(4): return("  X    X  ");
         }
         return "NULL";
     }
